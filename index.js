@@ -18,5 +18,7 @@ function dec(a){
 }
 function makeInt(a){
   a.toString(a)
-  makeInt(a*0)
+}
+function preserveDecimal(a) {
+  parseFloat(a)
 }
