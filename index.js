@@ -21,4 +21,5 @@ function makeInt(a){
 }
 function preserveDecimal(a) {
   parseFloat(a)
+  parseFloat(parseInt(a))
 }
