@@ -20,6 +20,5 @@ function makeInt(a){
   return parseInt(a,10)
 }
 function preserveDecimal(a) {
-  parseFloat(a)
-  parseFloat(parseInt(a))
+  return parseFloat(a)
 }
